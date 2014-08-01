@@ -1,0 +1,1 @@
+run lambda { |env| ['418', {'Content-Type' => 'text/html'}, ['I\'m a teapot']] }
